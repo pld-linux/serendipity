@@ -1,5 +1,5 @@
 Summary:	Personal publishing system
-Summary(pl):	Osobisty system publikacji
+Summary(pl.UTF-8):   Osobisty system publikacji
 Name:		serendipity
 Version:	1.1
 Release:	1
@@ -36,11 +36,11 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		_sysconfdir	%{_webapps}/%{_webapp}
 
 %description
-%description -l pl
+%description -l pl.UTF-8
 
 %package db-pgsql
 Summary:	Serendipity DB Driver for PostgreSQL
-Summary(pl):	Sterownik bazy danych PostreSQL dla Serendipity
+Summary(pl.UTF-8):   Sterownik bazy danych PostreSQL dla Serendipity
 Group:		Applications/WWW
 Requires:	%{name} = %{version}-%{release}
 Requires:	php(pgsql)
@@ -50,13 +50,13 @@ Provides:	%{name}(DB_driver) = %{version}-%{release}
 This virtual package provides PostgreSQL database backend for
 Serendipity.
 
-%description db-pgsql -l pl
+%description db-pgsql -l pl.UTF-8
 Ten wirtualny pakiet dostarcza backend bazy danych PostgreSQL dla
 Serendipity.
 
 %package db-mysql
 Summary:	Serendipity DB Driver for MySQL
-Summary(pl):	Sterownik bazy danych MySQL dla Serendipity
+Summary(pl.UTF-8):   Sterownik bazy danych MySQL dla Serendipity
 Group:		Applications/WWW
 Requires:	%{name} = %{version}-%{release}
 Requires:	php(mysql)
@@ -65,13 +65,13 @@ Provides:	%{name}(DB_driver) = %{version}-%{release}
 %description db-mysql
 This virtual package provides MySQL database backend for Serendipity.
 
-%description db-mysql -l pl
+%description db-mysql -l pl.UTF-8
 Ten wirtualny pakiet dostarcza backend bazy danych MySQL dla
 Serendipity.
 
 %package db-sqlite3
 Summary:	Serendipity DB Driver for SQLite3
-Summary(pl):	Sterownik bazy danych SQLite3 dla Serendipity
+Summary(pl.UTF-8):   Sterownik bazy danych SQLite3 dla Serendipity
 Group:		Applications/WWW
 Requires:	%{name} = %{version}-%{release}
 Requires:	php(sqlite3)
@@ -81,25 +81,25 @@ Provides:	%{name}(DB_driver) = %{version}-%{release}
 This virtual package provides SQLite3 database backend for
 Serendipity.
 
-%description db-sqlite3 -l pl
+%description db-sqlite3 -l pl.UTF-8
 Ten wirtualny pakiet dostarcza backend bazy danych SQLite3 dla
 Serendipity.
 
 %package event_bbcode
 Summary:	Event extension for Serendipity
-Summary(pl):	Rozszerzenie obs³ugi zdarzeñ dla Serendipity
+Summary(pl.UTF-8):   Rozszerzenie obsÅ‚ugi zdarzeÅ„ dla Serendipity
 Group:		Applications/WWW
 Requires:	%{name} = %{version}-%{release}
 
 %description event_bbcode
 BBcode hooks for Serendipity editor.
 
-%description event_bbcode -l pl
+%description event_bbcode -l pl.UTF-8
 Rozszerzenia BBCode dla edytora Serendipity.
 
 %package event_browsercompatibility
 Summary:	Event extension for Serendipity
-Summary(pl):	Rozszerzenie obs³ugi zdarzeñ dla Serendipity
+Summary(pl.UTF-8):   Rozszerzenie obsÅ‚ugi zdarzeÅ„ dla Serendipity
 Group:		Applications/WWW
 Requires:	%{name} = %{version}-%{release}
 
@@ -107,12 +107,12 @@ Requires:	%{name} = %{version}-%{release}
 %description event_browsercompatibility
 Event extension for Serendipity.
 
-%description event_browsercompatibility -l pl
-Rozszerzenie obs³ugi zdarzeñ dla Serendipity.
+%description event_browsercompatibility -l pl.UTF-8
+Rozszerzenie obsÅ‚ugi zdarzeÅ„ dla Serendipity.
 
 %package event_contentrewrite
 Summary:	Event extension for Serendipity
-Summary(pl):	Rozszerzenie obs³ugi zdarzeñ dla Serendipity
+Summary(pl.UTF-8):   Rozszerzenie obsÅ‚ugi zdarzeÅ„ dla Serendipity
 Group:		Applications/WWW
 Requires:	%{name} = %{version}-%{release}
 
@@ -120,13 +120,13 @@ Requires:	%{name} = %{version}-%{release}
 Extension for Serendipity editor that enables rewriting user defined
 frazes
 
-%description event_contentrewrite -l pl
-Rozszerzenie dla edytora Serendipity pozwalaj±ce na podmienianie
-zdefiniowanych przez u¿ytkownia s³ów kluczowych
+%description event_contentrewrite -l pl.UTF-8
+Rozszerzenie dla edytora Serendipity pozwalajÄ…ce na podmienianie
+zdefiniowanych przez uÅ¼ytkownia sÅ‚Ã³w kluczowych
 
 %package event_creativecommons
 Summary:	Event extension for Serendipity
-Summary(pl):	Rozszerzenie obs³ugi zdarzeñ dla Serendipity
+Summary(pl.UTF-8):   Rozszerzenie obsÅ‚ugi zdarzeÅ„ dla Serendipity
 Group:		Applications/WWW
 Requires:	%{name} = %{version}-%{release}
 Requires:	%{name}-plugin_creativecommons = %{version}-%{release}
@@ -135,26 +135,26 @@ Requires:	%{name}-plugin_creativecommons = %{version}-%{release}
 Extension that that displays on sidebar user choosed Creatice Common
 license.
 
-%description event_creativecommons -l pl
-Rozszerzenie wy¶wietlaj±ce na panelu wybran± przez u¿ytkownika
-licencjê Creative Commons.
+%description event_creativecommons -l pl.UTF-8
+Rozszerzenie wyÅ›wietlajÄ…ce na panelu wybranÄ… przez uÅ¼ytkownika
+licencjÄ™ Creative Commons.
 
 %package event_emoticate
 Summary:	Event extension for Serendipity
-Summary(pl):	Rozszerzenie obs³ugi zdarzeñ dla Serendipity
+Summary(pl.UTF-8):   Rozszerzenie obsÅ‚ugi zdarzeÅ„ dla Serendipity
 Group:		Applications/WWW
 Requires:	%{name} = %{version}-%{release}
 
 %description event_emoticate
 Extension for Serendipity editor that converts smilies to icons.
 
-%description event_emoticate -l pl
-Rozszerzenie dla edytora Serendipity zamieniaj±ce emotikony tekstowe
+%description event_emoticate -l pl.UTF-8
+Rozszerzenie dla edytora Serendipity zamieniajÄ…ce emotikony tekstowe
 na ikony.
 
 %package event_entryproperties
 Summary:	Event extension for Serendipity
-Summary(pl):	Rozszerzenie obs³ugi zdarzeñ dla Serendipity
+Summary(pl.UTF-8):   Rozszerzenie obsÅ‚ugi zdarzeÅ„ dla Serendipity
 Group:		Applications/WWW
 Requires:	%{name} = %{version}-%{release}
 
@@ -162,12 +162,12 @@ Requires:	%{name} = %{version}-%{release}
 %description event_entryproperties
 Event extension for Serendipity.
 
-%description event_entryproperties -l pl
-Rozszerzenie obs³ugi zdarzeñ dla Serendipity.
+%description event_entryproperties -l pl.UTF-8
+Rozszerzenie obsÅ‚ugi zdarzeÅ„ dla Serendipity.
 
 %package event_karma
 Summary:	Event extension for Serendipity
-Summary(pl):	Rozszerzenie obs³ugi zdarzeñ dla Serendipity
+Summary(pl.UTF-8):   Rozszerzenie obsÅ‚ugi zdarzeÅ„ dla Serendipity
 Group:		Applications/WWW
 Requires:	%{name} = %{version}-%{release}
 
@@ -175,12 +175,12 @@ Requires:	%{name} = %{version}-%{release}
 %description event_karma
 Event extension for Serendipity.
 
-%description event_karma -l pl
-Rozszerzenie obs³ugi zdarzeñ dla Serendipity.
+%description event_karma -l pl.UTF-8
+Rozszerzenie obsÅ‚ugi zdarzeÅ„ dla Serendipity.
 
 %package event_livesearch
 Summary:	Event extension for Serendipity
-Summary(pl):	Rozszerzenie obs³ugi zdarzeñ dla Serendipity
+Summary(pl.UTF-8):   Rozszerzenie obsÅ‚ugi zdarzeÅ„ dla Serendipity
 Group:		Applications/WWW
 Requires:	%{name} = %{version}-%{release}
 
@@ -188,24 +188,24 @@ Requires:	%{name} = %{version}-%{release}
 %description event_livesearch
 Event extension for Serendipity.
 
-%description event_livesearch -l pl
-Rozszerzenie obs³ugi zdarzeñ dla Serendipity.
+%description event_livesearch -l pl.UTF-8
+Rozszerzenie obsÅ‚ugi zdarzeÅ„ dla Serendipity.
 
 %package event_mailer
 Summary:	Event extension for Serendipity
-Summary(pl):	Rozszerzenie obs³ugi zdarzeñ dla Serendipity
+Summary(pl.UTF-8):   Rozszerzenie obsÅ‚ugi zdarzeÅ„ dla Serendipity
 Group:		Applications/WWW
 Requires:	%{name} = %{version}-%{release}
 
 %description event_mailer
 Extension allowing to send article to user defined email.
 
-%description event_mailer -l pl
-Rozszerzenie pozwal±ce wys³aæ artyku³ na wskazany adres e-mail.
+%description event_mailer -l pl.UTF-8
+Rozszerzenie pozwalÄ…ce wysÅ‚aÄ‡ artykuÅ‚ na wskazany adres e-mail.
 
 %package event_nl2br
 Summary:	Event extension for Serendipity
-Summary(pl):	Rozszerzenie obs³ugi zdarzeñ dla Serendipity
+Summary(pl.UTF-8):   Rozszerzenie obsÅ‚ugi zdarzeÅ„ dla Serendipity
 Group:		Applications/WWW
 Requires:	%{name} = %{version}-%{release}
 
@@ -213,25 +213,25 @@ Requires:	%{name} = %{version}-%{release}
 Extension for Serendipity editor converting any newline from entry
 creation into HTML break.
 
-%description event_nl2br -l pl
-Rozszerzenie edytora Serendipity zmieniaj±ce wyst±pienia nowych linii
-w modyfikowanym tek¶cie na odpowiedni znacznik HTML.
+%description event_nl2br -l pl.UTF-8
+Rozszerzenie edytora Serendipity zmieniajÄ…ce wystÄ…pienia nowych linii
+w modyfikowanym tekÅ›cie na odpowiedni znacznik HTML.
 
 %package event_s9ymarkup
 Summary:	Event extension for Serendipity
-Summary(pl):	Rozszerzenie obs³ugi zdarzeñ dla Serendipity
+Summary(pl.UTF-8):   Rozszerzenie obsÅ‚ugi zdarzeÅ„ dla Serendipity
 Group:		Applications/WWW
 Requires:	%{name} = %{version}-%{release}
 
 %description event_s9ymarkup
 Native extension for Serendipity editor.
 
-%description event_s9ymarkup -l pl
+%description event_s9ymarkup -l pl.UTF-8
 Natywne rozszerzenie dla edytora Serendipity.
 
 %package event_searchhighlight
 Summary:	Event extension for Serendipity
-Summary(pl):	Rozszerzenie osb³ugi zdarzeñ dla Serendipity
+Summary(pl.UTF-8):   Rozszerzenie osbÅ‚ugi zdarzeÅ„ dla Serendipity
 Group:		Applications/WWW
 Requires:	%{name} = %{version}-%{release}
 
@@ -239,12 +239,12 @@ Requires:	%{name} = %{version}-%{release}
 %description event_searchhighlight
 Event extension for Serendipity.
 
-%description event_searchhighlight -l pl
-Rozszerzenie osb³ugi zdarzeñ dla Serendipity.
+%description event_searchhighlight -l pl.UTF-8
+Rozszerzenie osbÅ‚ugi zdarzeÅ„ dla Serendipity.
 
 %package event_spamblock
 Summary:	Event extension for Serendipity
-Summary(pl):	Rozszerzenie obs³ugi zdarzeñ dla Serendipity
+Summary(pl.UTF-8):   Rozszerzenie obsÅ‚ugi zdarzeÅ„ dla Serendipity
 Group:		Applications/WWW
 Requires:	%{name} = %{version}-%{release}
 
@@ -252,12 +252,12 @@ Requires:	%{name} = %{version}-%{release}
 %description event_spamblock
 Event extension for Serendipity.
 
-%description event_spamblock -l pl
-Rozszerzenie obs³ugi zdarzeñ dla Serendipity.
+%description event_spamblock -l pl.UTF-8
+Rozszerzenie obsÅ‚ugi zdarzeÅ„ dla Serendipity.
 
 %package event_spartacus
 Summary:	Sidebar plugin manager for Serendipity
-Summary(pl):	Zarz±dca wtyczek dla Serendipity
+Summary(pl.UTF-8):   ZarzÄ…dca wtyczek dla Serendipity
 Group:		Applications/WWW
 Requires:	%{name} = %{version}-%{release}
 
@@ -265,25 +265,25 @@ Requires:	%{name} = %{version}-%{release}
 Sidebar plugin manager for Serendipity that allows installing plugins
 from Serendipity repository.
 
-%description event_spartacus -l pl
-Rozszerzenie pozwalaj±ce na instalacjê dodatkowych wtyczek z
+%description event_spartacus -l pl.UTF-8
+Rozszerzenie pozwalajÄ…ce na instalacjÄ™ dodatkowych wtyczek z
 repozytorium Serendipity.
 
 %package event_statistics
 Summary:	Event extension for Serendipity
-Summary(pl):	Rozszerzenie obs³ugi zdarzeñ dla Serendipity
+Summary(pl.UTF-8):   Rozszerzenie obsÅ‚ugi zdarzeÅ„ dla Serendipity
 Group:		Applications/WWW
 Requires:	%{name} = %{version}-%{release}
 
 %description event_statistics
 Extension adding link to internal Serendipity statistics.
 
-%description event_statistics -l pl
-Rozszerzenie dodaj±ce odno¶nik do wewnêtrznych statystyk Serendipity.
+%description event_statistics -l pl.UTF-8
+Rozszerzenie dodajÄ…ce odnoÅ›nik do wewnÄ™trznych statystyk Serendipity.
 
 %package event_templatechooser
 Summary:	Event extension for Serendipity
-Summary(pl):	Rozszerzenie obs³ugi zdarzeñ dla Serendipity
+Summary(pl.UTF-8):   Rozszerzenie obsÅ‚ugi zdarzeÅ„ dla Serendipity
 Group:		Applications/WWW
 Requires:	%{name} = %{version}-%{release}
 Requires:	%{name}-plugin_templatechooser = %{version}-%{release}
@@ -292,36 +292,36 @@ Requires:	%{name}-plugin_templatechooser = %{version}-%{release}
 %description event_templatechooser
 Event extension for Serendipity.
 
-%description event_templatechooser -l pl
-Rozszerzenie obs³ugi zdarzeñ dla Serendipity.
+%description event_templatechooser -l pl.UTF-8
+Rozszerzenie obsÅ‚ugi zdarzeÅ„ dla Serendipity.
 
 %package event_textile
 Summary:	Event extension for Serendipity
-Summary(pl):	Rozszerzenie obs³ugi zdarzeñ dla Serendipity
+Summary(pl.UTF-8):   Rozszerzenie obsÅ‚ugi zdarzeÅ„ dla Serendipity
 Group:		Applications/WWW
 Requires:	%{name} = %{version}-%{release}
 
 %description event_textile
 Textile hooks for Serendipity editor.
 
-%description event_textile -l pl
+%description event_textile -l pl.UTF-8
 Rozszerzenia Textile dla edytora Serendipity.
 
 %package event_textwiki
 Summary:	Event extension for Serendipity
-Summary(pl):	Rozszerzenie obs³ugi zdarzeñ dla Serendipity
+Summary(pl.UTF-8):   Rozszerzenie obsÅ‚ugi zdarzeÅ„ dla Serendipity
 Group:		Applications/WWW
 Requires:	%{name} = %{version}-%{release}
 
 %description event_textwiki
 Textwiki hooks for Serendipity editor.
 
-%description event_textwiki -l pl
+%description event_textwiki -l pl.UTF-8
 Rozszerzenia Textwiki dla edytora Serendipity.
 
 %package event_trackexits
 Summary:	Event extension for Serendipity
-Summary(pl):	Rozszerzenie obs³ugi zdarzeñ dla Serendipity
+Summary(pl.UTF-8):   Rozszerzenie obsÅ‚ugi zdarzeÅ„ dla Serendipity
 Group:		Applications/WWW
 Requires:	%{name} = %{version}-%{release}
 
@@ -329,13 +329,13 @@ Requires:	%{name} = %{version}-%{release}
 Extension encondig URLs in articles that giving statistics about
 wayouts from blog.
 
-%description event_trackexits -l pl
-Rozszerzenie zmieniaj±ce kod odno¶ników w artyku³ach zbieraj±ce dane
-na temat klikniêæ (wyj¶æ z blogu).
+%description event_trackexits -l pl.UTF-8
+Rozszerzenie zmieniajÄ…ce kod odnoÅ›nikÃ³w w artykuÅ‚ach zbierajÄ…ce dane
+na temat klikniÄ™Ä‡ (wyjÅ›Ä‡ z blogu).
 
 %package event_weblogping
 Summary:	Editor extension for Serendipity
-Summary(pl):	Rozszerzenie edytora dla Serendipity
+Summary(pl.UTF-8):   Rozszerzenie edytora dla Serendipity
 Group:		Applications/WWW
 Requires:	%{name} = %{version}-%{release}
 
@@ -343,12 +343,12 @@ Requires:	%{name} = %{version}-%{release}
 %description event_weblogping
 Editor extension for Serendipity.
 
-%description event_weblogping -l pl
+%description event_weblogping -l pl.UTF-8
 Rozszerzenie edytora dla Serendipity.
 
 %package event_xhtmlcleanup
 Summary:	Editor extension for Serendipity
-Summary(pl):	Rozszerzenie edytora dla Serendipity
+Summary(pl.UTF-8):   Rozszerzenie edytora dla Serendipity
 Group:		Applications/WWW
 Requires:	%{name} = %{version}-%{release}
 
@@ -356,24 +356,24 @@ Requires:	%{name} = %{version}-%{release}
 %description event_xhtmlcleanup
 Editor extension for Serendipity.
 
-%description event_xhtmlcleanup -l pl
+%description event_xhtmlcleanup -l pl.UTF-8
 Rozszerzenie edytora dla Serendipity.
 
 %package plugin_comments
 Summary:	Sidebar plugin for Serendipity
-Summary(pl):	Wtyczka dla paneli Serendipity
+Summary(pl.UTF-8):   Wtyczka dla paneli Serendipity
 Group:		Applications/WWW
 Requires:	%{name} = %{version}-%{release}
 
 %description plugin_comments
 Displays a list of recently submitted comments.
 
-%description plugin_comments -l pl
-Wtyczka wy¶wietlaj±ca listê ostatnio dodanych komentarzy.
+%description plugin_comments -l pl.UTF-8
+Wtyczka wyÅ›wietlajÄ…ca listÄ™ ostatnio dodanych komentarzy.
 
 %package plugin_creativecommons
 Summary:	Sidebar plugin for Serendipity
-Summary(pl):	Wtyczka dla paneli Serendipity
+Summary(pl.UTF-8):   Wtyczka dla paneli Serendipity
 Group:		Applications/WWW
 Requires:	%{name} = %{version}-%{release}
 Requires:	%{name}-event_creativecommons = %{version}-%{release}
@@ -381,12 +381,12 @@ Requires:	%{name}-event_creativecommons = %{version}-%{release}
 %description plugin_creativecommons
 Displays chosen Creative Commons license data
 
-%description plugin_creativecommons -l pl
-Wy¶wietla wybran± licencjê Creative Commons
+%description plugin_creativecommons -l pl.UTF-8
+WyÅ›wietla wybranÄ… licencjÄ™ Creative Commons
 
 %package plugin_entrylinks
 Summary:	Sidebar plugin for Serendipity
-Summary(pl):	Wtyczka dla paneli Serendipity
+Summary(pl.UTF-8):   Wtyczka dla paneli Serendipity
 Group:		Applications/WWW
 Requires:	%{name} = %{version}-%{release}
 
@@ -394,24 +394,24 @@ Requires:	%{name} = %{version}-%{release}
 %description plugin_entrylinks
 Sidebar plugin for Serendipity.
 
-%description plugin_entrylinks -l pl
+%description plugin_entrylinks -l pl.UTF-8
 Wtyczka dla paneli Serendipity.
 
 %package plugin_eventwrapper
 Summary:	Sidebar plugin for Serendipity
-Summary(pl):	Wtyczka dla paneli Serendipity
+Summary(pl.UTF-8):   Wtyczka dla paneli Serendipity
 Group:		Applications/WWW
 Requires:	%{name} = %{version}-%{release}
 
 %description plugin_eventwrapper
 Plugin allowing using event extensions in sidebar.
 
-%description plugin_eventwrapper -l pl
-Wtyczka pozwalaj±ca u¿ywaæ rozszerzeñ (event_) wewn±trz paneli.
+%description plugin_eventwrapper -l pl.UTF-8
+Wtyczka pozwalajÄ…ca uÅ¼ywaÄ‡ rozszerzeÅ„ (event_) wewnÄ…trz paneli.
 
 %package plugin_history
 Summary:	Sidebar plugin for Serendipity
-Summary(pl):	Wtyczka dla paneli Serendipity
+Summary(pl.UTF-8):   Wtyczka dla paneli Serendipity
 Group:		Applications/WWW
 Requires:	%{name} = %{version}-%{release}
 
@@ -419,37 +419,37 @@ Requires:	%{name} = %{version}-%{release}
 %description plugin_history
 Sidebar plugin for Serendipity.
 
-%description plugin_history -l pl
+%description plugin_history -l pl.UTF-8
 Wtyczka dla paneli Serendipity.
 
 %package plugin_recententries
 Summary:	Sidebar plugin for Serendipity
-Summary(pl):	Wtyczka dla paneli Serendipity
+Summary(pl.UTF-8):   Wtyczka dla paneli Serendipity
 Group:		Applications/WWW
 Requires:	%{name} = %{version}-%{release}
 
 %description plugin_recententries
 Shows a quick list of recently made entries.
 
-%description plugin_recententries -l pl
-Wtyczka pokazuj±ca krótk± list± ostatnio dodanych wpisów.
+%description plugin_recententries -l pl.UTF-8
+Wtyczka pokazujÄ…ca krÃ³tkÄ… listÄ… ostatnio dodanych wpisÃ³w.
 
 %package plugin_remoterss
 Summary:	Sidebar plugin for Serendipity
-Summary(pl):	Wtyczka dla paneli Serendipity
+Summary(pl.UTF-8):   Wtyczka dla paneli Serendipity
 Group:		Applications/WWW
 Requires:	%{name} = %{version}-%{release}
 
 %description plugin_remoterss
 Plugin that enables to display foreign RSS feed embedded into blog.
 
-%description plugin_remoterss -l pl
-Wtyczka pozwalaj±ca na wy¶wietlanie za pomoc± RSS tre¶ci innych
-blogów.
+%description plugin_remoterss -l pl.UTF-8
+Wtyczka pozwalajÄ…ca na wyÅ›wietlanie za pomocÄ… RSS treÅ›ci innych
+blogÃ³w.
 
 %package plugin_shoutbox
 Summary:	Sidebar plugin for Serendipity
-Summary(pl):	Wtyczka dla paneli Serendipity
+Summary(pl.UTF-8):   Wtyczka dla paneli Serendipity
 Group:		Applications/WWW
 Requires:	%{name} = %{version}-%{release}
 
@@ -457,13 +457,13 @@ Requires:	%{name} = %{version}-%{release}
 Shows a simple form area where users can enter any comments they want.
 Those comments are displayed immediately on sidebar.
 
-%description plugin_shoutbox -l pl
-Wtyczka wy¶wietlaj±ca prosty formularz, przez który u¿ytkownicy mog±
-dodawaæ komentarze wy¶wietlane natychmiast na panelu.
+%description plugin_shoutbox -l pl.UTF-8
+Wtyczka wyÅ›wietlajÄ…ca prosty formularz, przez ktÃ³ry uÅ¼ytkownicy mogÄ…
+dodawaÄ‡ komentarze wyÅ›wietlane natychmiast na panelu.
 
 %package plugin_templatedropdown
 Summary:	Sidebar plugin for Serendipity
-Summary(pl):	Wtyczka dla paneli Serendipity
+Summary(pl.UTF-8):   Wtyczka dla paneli Serendipity
 Group:		Applications/WWW
 Requires:	%{name} = %{version}-%{release}
 Requires:	%{name}-event_templatedropdown = %{version}-%{release}
@@ -472,9 +472,9 @@ Requires:	%{name}-event_templatedropdown = %{version}-%{release}
 Shows on sidebar availaible themes, which could be chosen by any
 visitor to change the layout displayed to him.
 
-%description plugin_templatedropdown -l pl
-Wtyczka wy¶wietlaj±ca na panelu dostêpne motywy, którymi u¿ytkownicy
-mog± dostosywywaæ wy¶wietlanie wg swoich preferencji.
+%description plugin_templatedropdown -l pl.UTF-8
+Wtyczka wyÅ›wietlajÄ…ca na panelu dostÄ™pne motywy, ktÃ³rymi uÅ¼ytkownicy
+mogÄ… dostosywywaÄ‡ wyÅ›wietlanie wg swoich preferencji.
 
 %prep
 %setup -q -n %{name}
