@@ -1,12 +1,12 @@
 Summary:	Personal publishing system
 Summary(pl.UTF-8):	Osobisty system publikacji
 Name:		serendipity
-Version:	1.1
+Version:	1.1.2
 Release:	1
 License:	BSD
 Group:		Applications/Publishing
 Source0:	http://dl.sourceforge.net/php-blog/%{name}-%{version}.tar.bz2
-# Source0-md5:	6b743609dde3557c22424dfda3176ce5
+# Source0-md5:	078c15a45c008716283b13437cfe467e
 Source1:	%{name}.conf
 URL:		http://www.s9y.org/
 Requires:	%{name}(DB_driver)
